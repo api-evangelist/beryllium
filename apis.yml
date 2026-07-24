@@ -1,19 +1,52 @@
 aid: beryllium
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/beryllium.png
 name: Beryllium
-description: Beryllium is a company surfaced as a portfolio company of bullpen-capital and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'Beryllium was a Singapore- and Delhi-based sports and trading game development
+  platform founded in 2018/2019 by Amay Makhija, best known for its consumer product
+  Sixer — a fantasy cricket game where users bought "Up" or "Down" virtual stocks in
+  professional cricketers, with prices moving on in-game batting, bowling, and fielding
+  metrics. The company raised roughly $3.6M across two rounds, including a $3M pre-Series
+  A in June 2021 led by Bullpen Capital with Genting Ventures and Velo Partners. Beryllium
+  was acquired by Dream Sports (Dream11) in October 2023. As of this enrichment pass the
+  company is defunct as an independent operator: sixer.gg no longer resolves in DNS, and
+  beryllium.ai is a parked domain listed for sale on the GoDaddy/Afternic aftermarket.
+  Beryllium never published a public API, developer portal, or SDKs, so there is no API
+  surface for the API Evangelist network to catalog.'
 url: https://raw.githubusercontent.com/api-evangelist/beryllium/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - bullpen-capital
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: defunct-no-api-surface
+x-status: defunct
+x-status-detail: Acquired by Dream Sports (Dream11) in October 2023; beryllium.ai is a
+  parked domain listed for sale, sixer.gg does not resolve.
+x-acquired-by: Dream Sports
+x-acquired-date: '2023-10-05'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Fantasy Sports
+- Sports
+- Trading
+- Gaming
+- Consumer
+- Defunct
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +54,10 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
-- type: Website
-  url: https://www.beryllium.ai
+- type: Crunchbase
+  url: https://www.crunchbase.com/organization/beryllium-d4f6
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
