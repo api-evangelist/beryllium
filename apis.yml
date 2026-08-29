@@ -35,6 +35,9 @@ description: 'Beryllium was a Singapore- and Delhi-based sports and trading game
   Beryllium never published a public API, developer portal, or SDKs, so there is no API
   surface for the API Evangelist network to catalog.'
 url: https://raw.githubusercontent.com/api-evangelist/beryllium/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "Beryllium never published a public API, developer portal, or SDKs, so there is no API surface for the API Evangelist network to catalog."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
